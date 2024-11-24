@@ -1,0 +1,11 @@
+name: PlayLoop
+version: '1.0.0'
+main: net.nutchi.playLoop.PlayLoop
+api-version: '1.19'
+commands:
+  playloop:
+    description: Play a sound loop
+    usage: /<command> <player> <sound> <volume> <pitch> <duration>
+  stoploop:
+    description: Stop a sound loop
+    usage: /<command> <player>
